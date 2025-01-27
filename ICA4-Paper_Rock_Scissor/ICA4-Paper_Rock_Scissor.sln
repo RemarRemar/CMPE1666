@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICA4-Paper_Rock_Scissor", "ICA4-Paper_Rock_Scissor\ICA4-Paper_Rock_Scissor.csproj", "{FACE3479-F6C1-4D42-9E94-3F2CDCA1106E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FACE3479-F6C1-4D42-9E94-3F2CDCA1106E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FACE3479-F6C1-4D42-9E94-3F2CDCA1106E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FACE3479-F6C1-4D42-9E94-3F2CDCA1106E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FACE3479-F6C1-4D42-9E94-3F2CDCA1106E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9A0A3CB-B08C-4110-9CE1-7FAA00C59985}
+	EndGlobalSection
+EndGlobal
