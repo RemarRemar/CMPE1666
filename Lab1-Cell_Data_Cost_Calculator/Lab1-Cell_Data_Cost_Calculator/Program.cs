@@ -11,11 +11,23 @@
  * check if the input is a negative number
  * if negative, then display error and prompt for exit
  * if positive then continue
- * display yellow colored title names for the values, Amount, Unit, Cost/unit, Total, make sure they are spaced nicely
- * calculate how many whole gigabytes in the input, deduct from input
+ * display yellow colored title names for the values, Amount, Unit, Cost/unit, Total, make sure they are in a column
+ * calculate how many whole gigabytes in the input, deduct from bytes
  * calculate how many whole megabytes, deduct
  * calculate how many kilobytes, deduct
- * display how many GB, display "GB", display cost per/unit in numbers, 
+ * calculate subtotal in dollars
+ * in the columns, display how many GB, display "GB", display cost per/unit in numbers, repeat for MB, KB, and bytes
+ * make a line on the total column
+ * Display "Subtotal" on the Amount Column, and display the actual calculated subtotal in dollars
+ * if GB is more or equal to 50, give 10% discount on the GB cost per/unit
+ * ^continued, below subtotal display 10% discount, and below  New Subtotal on the amount column
+ * ^continued, on the Total column display costs in dollars
+ * below on the amount column 911 Access Fee, then below System Access Fee, then below Total before GST, then below GST
+ * ^same for their respective costs on the total column, in dollars
+ * make a line on the total column
+ * on the amount column "Total for Data:", then the absolute total value(in dollars) on the Total Column
+ * prompt exit with any key
+ * read to exit
  */
 using Microsoft.SqlServer.Server;
 using System;
@@ -106,14 +118,17 @@ namespace Lab1_Cell_Data_Cost_Calculator
                     Console.CursorLeft = 45;
                     Console.WriteLine($"{dSubTotal:C2}");
 
-                    Console.Write("\n10% Discount");
-                    Console.CursorLeft = 44;
-                    Console.WriteLine($"-{(lGB * 12.00) * 0.1:C2}");
-                    dSubTotal = lB * 0.01 + lKB * 0.02 + lMB * 0.25 + lGB * 12.00 * 0.9;
+                    if(lGB >= 50) 
+                    {
+                        Console.Write("\n10% Discount");
+                        Console.CursorLeft = 44;
+                        Console.WriteLine($"-{(lGB * 12.00) * 0.1:C2}");
+                        dSubTotal = lB * 0.01 + lKB * 0.02 + lMB * 0.25 + lGB * 12.00 * 0.9;
 
-                    Console.Write("\nNew SubTotal");
-                    Console.CursorLeft = 45;
-                    Console.WriteLine($"{dSubTotal:C2}");
+                        Console.Write("\nNew SubTotal");
+                        Console.CursorLeft = 45;
+                        Console.WriteLine($"{dSubTotal:C2}");
+                    }
 
                     Console.Write("\n911 Access Fee");
                     Console.CursorLeft = 45;
