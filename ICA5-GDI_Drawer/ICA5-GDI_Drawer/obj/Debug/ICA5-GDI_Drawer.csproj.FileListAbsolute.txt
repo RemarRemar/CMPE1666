@@ -1,9 +1,0 @@
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA5-GDI_Drawer\ICA5-GDI_Drawer\bin\Debug\ICA5-GDI_Drawer.exe.config
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA5-GDI_Drawer\ICA5-GDI_Drawer\bin\Debug\ICA5-GDI_Drawer.exe
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA5-GDI_Drawer\ICA5-GDI_Drawer\bin\Debug\ICA5-GDI_Drawer.pdb
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA5-GDI_Drawer\ICA5-GDI_Drawer\bin\Debug\GDIDrawer.dll
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA5-GDI_Drawer\ICA5-GDI_Drawer\obj\Debug\ICA5-GDI_Drawer.csproj.AssemblyReference.cache
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA5-GDI_Drawer\ICA5-GDI_Drawer\obj\Debug\ICA5-GDI_Drawer.csproj.CoreCompileInputs.cache
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA5-GDI_Drawer\ICA5-GDI_Drawer\obj\Debug\ICA5-GDI.DDF8A451.Up2Date
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA5-GDI_Drawer\ICA5-GDI_Drawer\obj\Debug\ICA5-GDI_Drawer.exe
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA5-GDI_Drawer\ICA5-GDI_Drawer\obj\Debug\ICA5-GDI_Drawer.pdb

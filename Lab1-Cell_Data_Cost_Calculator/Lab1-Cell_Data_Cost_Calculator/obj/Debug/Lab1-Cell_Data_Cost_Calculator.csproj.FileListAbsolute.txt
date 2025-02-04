@@ -1,7 +1,0 @@
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\Lab1-Cell_Data_Cost_Calculator\Lab1-Cell_Data_Cost_Calculator\bin\Debug\Lab1-Cell_Data_Cost_Calculator.exe.config
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\Lab1-Cell_Data_Cost_Calculator\Lab1-Cell_Data_Cost_Calculator\bin\Debug\Lab1-Cell_Data_Cost_Calculator.exe
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\Lab1-Cell_Data_Cost_Calculator\Lab1-Cell_Data_Cost_Calculator\bin\Debug\Lab1-Cell_Data_Cost_Calculator.pdb
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\Lab1-Cell_Data_Cost_Calculator\Lab1-Cell_Data_Cost_Calculator\obj\Debug\Lab1-Cell_Data_Cost_Calculator.csproj.AssemblyReference.cache
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\Lab1-Cell_Data_Cost_Calculator\Lab1-Cell_Data_Cost_Calculator\obj\Debug\Lab1-Cell_Data_Cost_Calculator.csproj.CoreCompileInputs.cache
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\Lab1-Cell_Data_Cost_Calculator\Lab1-Cell_Data_Cost_Calculator\obj\Debug\Lab1-Cell_Data_Cost_Calculator.exe
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\Lab1-Cell_Data_Cost_Calculator\Lab1-Cell_Data_Cost_Calculator\obj\Debug\Lab1-Cell_Data_Cost_Calculator.pdb
