@@ -1,9 +1,0 @@
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA6-GDIDrawer_cont\ICA6-GDIDrawer_cont\bin\Debug\ICA6-GDIDrawer_cont.exe.config
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA6-GDIDrawer_cont\ICA6-GDIDrawer_cont\bin\Debug\ICA6-GDIDrawer_cont.exe
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA6-GDIDrawer_cont\ICA6-GDIDrawer_cont\bin\Debug\ICA6-GDIDrawer_cont.pdb
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA6-GDIDrawer_cont\ICA6-GDIDrawer_cont\bin\Debug\GDIDrawer.dll
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA6-GDIDrawer_cont\ICA6-GDIDrawer_cont\obj\Debug\ICA6-GDIDrawer_cont.csproj.AssemblyReference.cache
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA6-GDIDrawer_cont\ICA6-GDIDrawer_cont\obj\Debug\ICA6-GDIDrawer_cont.csproj.CoreCompileInputs.cache
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA6-GDIDrawer_cont\ICA6-GDIDrawer_cont\obj\Debug\ICA6-GDI.D7EF9AF0.Up2Date
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA6-GDIDrawer_cont\ICA6-GDIDrawer_cont\obj\Debug\ICA6-GDIDrawer_cont.exe
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA6-GDIDrawer_cont\ICA6-GDIDrawer_cont\obj\Debug\ICA6-GDIDrawer_cont.pdb
