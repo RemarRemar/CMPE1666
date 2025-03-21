@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ICA11_Utility/1.0.0": {
+        "runtime": {
+          "ICA11_Utility.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ICA11_Utility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
