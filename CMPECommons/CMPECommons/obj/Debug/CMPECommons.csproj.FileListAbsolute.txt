@@ -1,0 +1,6 @@
+C:\Users\rbacadon2\Documents\GitHub\CMPE1300\CMPECommons\CMPECommons\bin\Debug\CMPECommons.dll
+C:\Users\rbacadon2\Documents\GitHub\CMPE1300\CMPECommons\CMPECommons\bin\Debug\CMPECommons.pdb
+C:\Users\rbacadon2\Documents\GitHub\CMPE1300\CMPECommons\CMPECommons\obj\Debug\CMPECommons.csproj.AssemblyReference.cache
+C:\Users\rbacadon2\Documents\GitHub\CMPE1300\CMPECommons\CMPECommons\obj\Debug\CMPECommons.csproj.CoreCompileInputs.cache
+C:\Users\rbacadon2\Documents\GitHub\CMPE1300\CMPECommons\CMPECommons\obj\Debug\CMPECommons.dll
+C:\Users\rbacadon2\Documents\GitHub\CMPE1300\CMPECommons\CMPECommons\obj\Debug\CMPECommons.pdb
