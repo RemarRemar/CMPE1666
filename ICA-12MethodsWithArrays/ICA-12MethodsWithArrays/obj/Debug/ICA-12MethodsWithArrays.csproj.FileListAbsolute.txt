@@ -1,0 +1,9 @@
+C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA-12MethodsWithArrays\ICA-12MethodsWithArrays\bin\Debug\ICA-12MethodsWithArrays.exe.config
+C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA-12MethodsWithArrays\ICA-12MethodsWithArrays\bin\Debug\ICA-12MethodsWithArrays.exe
+C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA-12MethodsWithArrays\ICA-12MethodsWithArrays\bin\Debug\ICA-12MethodsWithArrays.pdb
+C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA-12MethodsWithArrays\ICA-12MethodsWithArrays\bin\Debug\CMPECommons.dll
+C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA-12MethodsWithArrays\ICA-12MethodsWithArrays\obj\Debug\ICA-12MethodsWithArrays.csproj.AssemblyReference.cache
+C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA-12MethodsWithArrays\ICA-12MethodsWithArrays\obj\Debug\ICA-12MethodsWithArrays.csproj.CoreCompileInputs.cache
+C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA-12MethodsWithArrays\ICA-12MethodsWithArrays\obj\Debug\ICA-12Me.2386A62C.Up2Date
+C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA-12MethodsWithArrays\ICA-12MethodsWithArrays\obj\Debug\ICA-12MethodsWithArrays.exe
+C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA-12MethodsWithArrays\ICA-12MethodsWithArrays\obj\Debug\ICA-12MethodsWithArrays.pdb

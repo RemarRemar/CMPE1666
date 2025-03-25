@@ -13,7 +13,36 @@ namespace CMPECommons
             Console.CursorLeft = (Console.WindowWidth - sTitle.Length) / 2;
             Console.WriteLine(sTitle);
         }
+        static public void RunAgain(out bool bAgain)
+        {
+            bAgain = true;
+            char cCheck;
+            string sCheck;
+            for (int i = 0; i < 3; i++)
+            {
+                Console.Write("\nRun program again? (y/n)");
+                cCheck = Console.ReadKey(true).KeyChar;
+                sCheck = cCheck.ToString();
+                sCheck = sCheck.ToLower();
+                switch (sCheck)
+                {
+                    case "y":
+                        Console.Clear();
+                        bAgain = true;
+                        i = 3;
+                        break;
 
+                    case "n":
+                        Console.Clear();
+                        bAgain = false;
+                        i = 3;
+                        break;
+                    default:
+                        i--;
+                        break;
+                }
+            }
+        }
         static public void GetValue(out int iOut, string sIn)
         {
             iOut = 0;
