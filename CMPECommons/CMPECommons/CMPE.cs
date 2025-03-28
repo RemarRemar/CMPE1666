@@ -8,6 +8,16 @@ namespace CMPECommons
 {
     public class CMPE
     {
+        //Title
+        //RunAgain
+
+        //GetValue
+
+        //MakeArray
+        //Show
+        //ShowReverse
+        //Average
+        //Largest
         static public void Title(string sTitle)
         {
             Console.CursorLeft = (Console.WindowWidth - sTitle.Length) / 2;
@@ -176,6 +186,55 @@ namespace CMPECommons
                     Console.WriteLine("An invalid number was entered. Please try again.");
                 }
             }
+        }
+        static public void MakeArray(out int[] iArray, int iArraySize)
+        {
+            Random arrayRandom = new Random();
+            iArray = new int[iArraySize];
+            for (int i = 0; i < iArraySize; i++)
+            {
+                iArray[i] = arrayRandom.Next(0, 101);
+            }
+        }
+        static public void Show(int[] iArray)
+        {
+            Console.WriteLine("\nThe array contents...");
+            for (int i = 0; i < iArray.Length; i++)
+            {
+                Console.WriteLine($"array[{i}] = {iArray[i]}");
+            }
+        }
+        static public void ShowReverse(int[] iArray)
+        {
+            Console.WriteLine("\nThe array in reverse...");
+            for (int i = (iArray.Length - 1); i > -1; i--)
+            {
+                Console.WriteLine($"array[{i}] = {iArray[i]}");
+            }
+        }
+        static public void Average(int[] iArray)
+        {
+            double dAverage = 0;
+            for (int i = 0; i < iArray.Length; i++)
+            {
+                dAverage += iArray[i];
+            }
+            dAverage /= iArray.Length;
+            Console.WriteLine($"\nThe average is {dAverage}\n");
+        }
+        static public void Largest(int[] iArray)
+        {
+            int iMax = 0;
+            int iIndex = 0;
+            for (int i = 0; i < (iArray.Length - 1); i++)
+            {
+                if (iMax < iArray[i])
+                {
+                    iMax = iArray[i];
+                    iIndex = i;
+                }
+            }
+            Console.WriteLine($"the Largest Value is {iMax} at location {iIndex}.");
         }
     }
 }
