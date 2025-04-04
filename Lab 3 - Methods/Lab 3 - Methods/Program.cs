@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
 using GDIDrawer;
+using System.Drawing;
 namespace Lab_3___Methods
 {
     internal class Program
@@ -13,7 +14,7 @@ namespace Lab_3___Methods
         {
             double dX = 0, dA, dB, dC, dYLow, dYHigh, dY;
 
-            CDrawer Canvas = new CDrawer(960, 1080);
+            CDrawer Canvas = new CDrawer(960, 1080,false);
 
             bool bKeepGoing = true;
 
@@ -31,44 +32,54 @@ namespace Lab_3___Methods
         static private void DrawGraph(double dA, double dB, double dC, double dYLow, double dYHigh, CDrawer Canvas)
         {
             double dY, dX = 0;
-
-            if (dYLow >= 0)
-            {
-                dYLow = 400 + (dYLow * 50);
-            }
-            else
-            {
-                dYLow = 400 - (dYLow * 50);
-            }
-
+            dYLow = 400 + (dYLow * 50);
+            dYHigh = 400 + (dYHigh * 50);
+           
             bool bDrawNo = false, bDrawRight = true, bDrawleft = true;
             do
             {
-                double dY1 = 0, dY2 = 0, dX1 = 0, dX2 = 0;
+                double dY2 = 0, dX2 = 0;
+                int iX1, iX2;
 
                 if (bDrawRight)
                 {
                     Quadratic(dA, dB, dC, dX, out dY);
 
-                    
+                    dX2 = dX + 1;
+                    Quadratic(dA, dB, dC, dX2, out dY2);
+
                     if (dA > 0)
                     {
                         dY = 400 - dY;
+                        dY2 = 400 - dY2;
                     }
                     else
                     {
-                        dY += 400;
+                        dY = dY + 400;
+                        dY2 = dY2 + 400;
                     }
 
-                    Quadratic(dA, dB, dC, dX1, out dY1);
-
-                    if (dY >= dYLow && dY <= dYHigh)
+                    if (dY >= dYLow && dY2 <= dYHigh)
                     {
+                        iX1 = (int)(dX + 400);
+                        iX2 = (int)(dX2 + 400);
 
+                        Canvas.AddLine(iX1, (int)dY, iX2, (int)dY2, Color.Blue);
+                        Console.WriteLine($"{iX1}, {(int)dY}, {iX2}, {(int)dY2}");
+                        Thread.Sleep(30);
+                        dX++;
+                    }
+                    else
+                    {
+                        bDrawRight = false;
                     }
                 }
-
-
+                
+                if(bDrawRight == false)
+                {
+                    bDrawNo = false;
+                }
+                Canvas.Render();
             } while (!bDrawNo);
 
         }
@@ -114,7 +125,7 @@ namespace Lab_3___Methods
         }
         static private void Quadratic(double dA, double dB, double dC, double dX, out double dFofX)
         {
-            dFofX = (dA * Math.Pow(dX, 2)) + (dB * dX) + dC;
+            dFofX = ((dA * Math.Pow(dX, 2)) + (dB * dX) + dC);
             
         }
         static private void GetValue(out double dOut, string sIn)

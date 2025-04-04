@@ -5,3 +5,5 @@ C:\Users\rbacadon2\Documents\GitHub\CMPE1300\Lab 3 - Methods\Lab 3 - Methods\obj
 C:\Users\rbacadon2\Documents\GitHub\CMPE1300\Lab 3 - Methods\Lab 3 - Methods\obj\Debug\Lab 3 - Methods.csproj.CoreCompileInputs.cache
 C:\Users\rbacadon2\Documents\GitHub\CMPE1300\Lab 3 - Methods\Lab 3 - Methods\obj\Debug\Lab 3 - Methods.exe
 C:\Users\rbacadon2\Documents\GitHub\CMPE1300\Lab 3 - Methods\Lab 3 - Methods\obj\Debug\Lab 3 - Methods.pdb
+C:\Users\rbacadon2\Documents\GitHub\CMPE1300\Lab 3 - Methods\Lab 3 - Methods\bin\Debug\GDIDrawer.dll
+C:\Users\rbacadon2\Documents\GitHub\CMPE1300\Lab 3 - Methods\Lab 3 - Methods\obj\Debug\Lab 3 - .AF9FA5C0.Up2Date
