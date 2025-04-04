@@ -12,33 +12,79 @@ namespace Lab_3___Methods
     {
         static void Main(string[] args)
         {
-            double dX = 0, dA, dB, dC, dYLow, dYHigh, dY;
+            double dX = 0, dA, dB, dC, dXLow, dXHigh, dY;
 
             CDrawer Canvas = new CDrawer(960, 1080,false);
 
             bool bKeepGoing = true;
 
+
+            DrawBackground(Canvas);
             do
             {
                 Title("Lab 3 methods");
                 GetCoefficients(out dA, out dB, out dC);
-                GetRange(out dYLow, out dYHigh);
-                DrawGraph(dA, dB, dC, dYLow, dYHigh, Canvas); 
-                
-
-            } while (YesNo("\nRun again? yes or no: "));
+                GetDomain(out dXLow, out dXHigh);
+                DrawGraph(dA, dB, dC, dXLow, dXHigh, Canvas);
+                YesNo(out bKeepGoing, "\nRun again? yes or no: ");
+                Canvas.Clear();
+            } while (bKeepGoing);
             Console.ReadKey();
         }
-        static private void DrawGraph(double dA, double dB, double dC, double dYLow, double dYHigh, CDrawer Canvas)
+        static private void DrawBackground(CDrawer Canvas)
         {
-            double dY, dX = 0;
-            dYLow = 400 + (dYLow * 50);
-            dYHigh = 400 + (dYHigh * 50);
-           
-            bool bDrawNo = false, bDrawRight = true, bDrawleft = true;
+            //horizontal axis
+            for (int i = 0; i < 960; i++)//drawing the horizontal line
+            {
+                Canvas.SetBBScaledPixel(i, 540, Color.Red);
+            }
+            for (int i = 530; i < 960; i+= 50)//drawing the notches on the right side
+            {
+                for(int j = (-10 + 540); j < (10 + 540); j++)
+                {
+                    Canvas.SetBBScaledPixel(i, j, Color.Red);
+                }
+            }
+            for (int i = 430; i > 0; i -= 50)//drawing the notches on the Left side
+            {
+                for (int j = (-10 + 540); j < (10 + 540); j++)
+                {
+                    Canvas.SetBBScaledPixel(i, j, Color.Red);
+                }
+            }
+            // vertical axis
+            for (int i = 0; i < 1080; i++)//drawing the vertical line
+            {
+                Canvas.SetBBScaledPixel(480, i, Color.Red);
+            }
+            for (int i = 590; i < 1080; i += 50)//drawing the notches on the top side
+            {
+                for (int j = (-10 + 480); j < (10 + 480); j++)
+                {
+                    Canvas.SetBBScaledPixel(j, i, Color.Red);
+                }
+            }
+            for (int i = 490; i > 0; i -= 50)//drawing the notches on the bottom side
+            {
+                for (int j = (-10 + 480); j < (10 + 480); j++)
+                {
+                    Canvas.SetBBScaledPixel(j, i, Color.Red);
+                }
+            }
+            Canvas.Render();
+        }
+        static private void DrawGraph(double dA, double dB, double dC, double dXLow, double dXHigh, CDrawer Canvas)
+        {
+            double dY, dX = 480, dY1, dX1 = 480, dY2, dX2;
+
+            bool bDrawNo = false, bDrawRight = true, bDrawLeft = true;
+
+
+            dXLow = 480 + (dXLow * 50);
+            dXHigh = 480 + (dXHigh * 50);
+
             do
             {
-                double dY2 = 0, dX2 = 0;
                 int iX1, iX2;
 
                 if (bDrawRight)
@@ -50,40 +96,82 @@ namespace Lab_3___Methods
 
                     if (dA > 0)
                     {
-                        dY = 400 - dY;
-                        dY2 = 400 - dY2;
+                        dY = 540 - dY;
+                        dY2 = 540 - dY2;
                     }
                     else
                     {
-                        dY = dY + 400;
-                        dY2 = dY2 + 400;
+                        dY = dY + 540;
+                        dY2 = dY2 + 540;
                     }
+                    iX1 = (int)(dX + 480);
+                    iX2 = (int)(dX2 + 480);
 
-                    if (dY >= dYLow && dY2 <= dYHigh)
+                    if (dX >= dXLow && dX <= dXHigh && dX2 >= dXLow && dX2 <= dXHigh)//PRoBlem here!!!1
                     {
-                        iX1 = (int)(dX + 400);
-                        iX2 = (int)(dX2 + 400);
 
                         Canvas.AddLine(iX1, (int)dY, iX2, (int)dY2, Color.Blue);
-                        Console.WriteLine($"{iX1}, {(int)dY}, {iX2}, {(int)dY2}");
-                        Thread.Sleep(30);
+                        Thread.Sleep(1);
                         dX++;
                     }
-                    else
+                    if (dX >= dXLow && dX <= dXHigh && dX2 < dXLow && bDrawRight == true)
                     {
+                        iX1 = (int)(dX + 480);
+                        iX2 = (int)(dXLow);
+
+                        Canvas.AddLine(iX1, (int)dY, iX2, (int)dY2, Color.Blue);
+                        Thread.Sleep(1);
                         bDrawRight = false;
                     }
                 }
-                
-                if(bDrawRight == false)
+                if (bDrawLeft)
                 {
-                    bDrawNo = false;
+                    Quadratic(dA, dB, dC, dX1, out dY1);
+
+                    dX2 = dX1 - 1;
+                    Quadratic(dA, dB, dC, dX2, out dY2);
+
+                    if (dA > 0)
+                    {
+                        dY1 = 540 - dY1;
+                        dY2 = 540 - dY2;
+                    }
+                    else
+                    {
+                        dY1 = dY1 + 540;
+                        dY2 = dY2 + 540;
+                    }
+
+                    iX1 = (int)(dX1 + 480);
+                    iX2 = (int)(dX2 + 480);
+
+                    if (dX1 >= dXLow && dX2 <= dXHigh && dX2 >= dXLow && dX1 <= dXHigh)
+                    {
+
+                        Canvas.AddLine(iX1, (int)dY1, iX2, (int)dY2, Color.Blue);
+                        Thread.Sleep(1);
+                        dX1--;
+                    }
+                    if (dX1 >= dXLow && dX1 <= dXHigh && dX2 < dXLow && bDrawLeft == true)
+                    {
+                        iX1 = (int)(dX1 + 480);
+                        iX2 = (int)(dXLow);
+
+                        Canvas.AddLine(iX1, (int)dY1, iX2, (int)dY2, Color.Blue);
+                        Thread.Sleep(1);
+                        bDrawLeft = false;
+                    }
+                }
+
+                if (bDrawRight == false && bDrawLeft == false)
+                {
+                    bDrawNo = true;
                 }
                 Canvas.Render();
             } while (!bDrawNo);
 
         }
-        static private bool YesNo(in string sMessage)
+        static private void YesNo(out bool bVar, in string sMessage)
         {
             bool bYesnt = true, bOut = true;
             do
@@ -106,8 +194,7 @@ namespace Lab_3___Methods
                         break;
                 }
             } while (!bOut);
-
-            return (bYesnt);
+            bVar = bYesnt;
         }
         static private void GetCoefficients(out double dA, out double dB, out double dC)
         {
@@ -118,14 +205,15 @@ namespace Lab_3___Methods
             GetValue(out dC, "Enter a value for c: ");
             
         }
-        static private void GetRange(out double dYLow, out double dYHigh)
+        static private void GetDomain(out double dXLow, out double dXHigh)
         {
-            GetValue(out dYLow, " Enter the lower limit: ");
-            GetValue(out dYHigh, " Enter the higher limit: ", dYLow);
+            GetValue(out dXLow, " Enter the lower limit: ");
+            GetValue(out dXHigh, " Enter the higher limit: ", dXLow);
         }
         static private void Quadratic(double dA, double dB, double dC, double dX, out double dFofX)
         {
-            dFofX = ((dA * Math.Pow(dX, 2)) + (dB * dX) + dC);
+            dX *= 0.02;
+            dFofX = ((dA * Math.Pow(dX, 2)) + (dB * dX) + dC)*50;
             
         }
         static private void GetValue(out double dOut, string sIn)
