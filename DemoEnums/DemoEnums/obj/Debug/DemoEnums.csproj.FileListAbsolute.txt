@@ -1,0 +1,7 @@
+E:\programs\02 Demos\DemoEnums\DemoEnums\bin\Debug\DemoEnums.exe.config
+E:\programs\02 Demos\DemoEnums\DemoEnums\bin\Debug\DemoEnums.exe
+E:\programs\02 Demos\DemoEnums\DemoEnums\bin\Debug\DemoEnums.pdb
+E:\programs\02 Demos\DemoEnums\DemoEnums\obj\Debug\DemoEnums.csproj.AssemblyReference.cache
+E:\programs\02 Demos\DemoEnums\DemoEnums\obj\Debug\DemoEnums.csproj.CoreCompileInputs.cache
+E:\programs\02 Demos\DemoEnums\DemoEnums\obj\Debug\DemoEnums.exe
+E:\programs\02 Demos\DemoEnums\DemoEnums\obj\Debug\DemoEnums.pdb

@@ -1,0 +1,7 @@
+C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA15-Working_WithStructs\ICA15-Working_WithStructs\bin\Debug\ICA15-Working_WithStructs.exe.config
+C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA15-Working_WithStructs\ICA15-Working_WithStructs\bin\Debug\ICA15-Working_WithStructs.exe
+C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA15-Working_WithStructs\ICA15-Working_WithStructs\bin\Debug\ICA15-Working_WithStructs.pdb
+C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA15-Working_WithStructs\ICA15-Working_WithStructs\obj\Debug\ICA15-Working_WithStructs.csproj.AssemblyReference.cache
+C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA15-Working_WithStructs\ICA15-Working_WithStructs\obj\Debug\ICA15-Working_WithStructs.csproj.CoreCompileInputs.cache
+C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA15-Working_WithStructs\ICA15-Working_WithStructs\obj\Debug\ICA15-Working_WithStructs.exe
+C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA15-Working_WithStructs\ICA15-Working_WithStructs\obj\Debug\ICA15-Working_WithStructs.pdb
