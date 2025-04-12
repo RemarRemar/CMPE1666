@@ -1,9 +1,0 @@
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA13-Parallel Arrays\ICA13-Parallel Arrays\bin\Debug\ICA13-Parallel Arrays.exe.config
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA13-Parallel Arrays\ICA13-Parallel Arrays\bin\Debug\ICA13-Parallel Arrays.exe
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA13-Parallel Arrays\ICA13-Parallel Arrays\bin\Debug\ICA13-Parallel Arrays.pdb
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA13-Parallel Arrays\ICA13-Parallel Arrays\bin\Debug\CMPECommons.dll
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA13-Parallel Arrays\ICA13-Parallel Arrays\obj\Debug\ICA13-Parallel Arrays.csproj.AssemblyReference.cache
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA13-Parallel Arrays\ICA13-Parallel Arrays\obj\Debug\ICA13-Parallel Arrays.csproj.CoreCompileInputs.cache
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA13-Parallel Arrays\ICA13-Parallel Arrays\obj\Debug\ICA13-Pa.7BF074DA.Up2Date
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA13-Parallel Arrays\ICA13-Parallel Arrays\obj\Debug\ICA13-Parallel Arrays.exe
-C:\Users\rbacadon2\Documents\GitHub\CMPE1300\ICA13-Parallel Arrays\ICA13-Parallel Arrays\obj\Debug\ICA13-Parallel Arrays.pdb
