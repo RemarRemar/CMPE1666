@@ -1,0 +1,7 @@
+C:\Users\rbacadon2\source\repos\DemoOrderOfN\DemoOrderOfN\bin\Debug\DemoOrderOfN.exe.config
+C:\Users\rbacadon2\source\repos\DemoOrderOfN\DemoOrderOfN\bin\Debug\DemoOrderOfN.exe
+C:\Users\rbacadon2\source\repos\DemoOrderOfN\DemoOrderOfN\bin\Debug\DemoOrderOfN.pdb
+C:\Users\rbacadon2\source\repos\DemoOrderOfN\DemoOrderOfN\obj\Debug\DemoOrderOfN.csproj.AssemblyReference.cache
+C:\Users\rbacadon2\source\repos\DemoOrderOfN\DemoOrderOfN\obj\Debug\DemoOrderOfN.csproj.CoreCompileInputs.cache
+C:\Users\rbacadon2\source\repos\DemoOrderOfN\DemoOrderOfN\obj\Debug\DemoOrderOfN.exe
+C:\Users\rbacadon2\source\repos\DemoOrderOfN\DemoOrderOfN\obj\Debug\DemoOrderOfN.pdb
