@@ -1,2 +1,2 @@
-# CMPE1300
-C#programming lessons with Reg Westly
+# CMPE1666
+C#programming lessons with 
