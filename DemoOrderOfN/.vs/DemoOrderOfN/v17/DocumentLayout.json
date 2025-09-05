@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\rbacadon2\\source\\repos\\DemoOrderOfN\\",
+  "WorkspaceRootPath": "C:\\Users\\rbacadon2\\Documents\\GitHub\\CMPE1666\\DemoOrderOfN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{588A9CDA-3DA0-4FBD-AF96-6781833DA8E6}|DemoOrderOfN\\DemoOrderOfN.csproj|c:\\users\\rbacadon2\\source\\repos\\demoorderofn\\demoorderofn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{588A9CDA-3DA0-4FBD-AF96-6781833DA8E6}|DemoOrderOfN\\DemoOrderOfN.csproj|c:\\users\\rbacadon2\\documents\\github\\cmpe1666\\demoorderofn\\demoorderofn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{588A9CDA-3DA0-4FBD-AF96-6781833DA8E6}|DemoOrderOfN\\DemoOrderOfN.csproj|solutionrelative:demoorderofn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\rbacadon2\\source\\repos\\DemoOrderOfN\\DemoOrderOfN\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\rbacadon2\\Documents\\GitHub\\CMPE1666\\DemoOrderOfN\\DemoOrderOfN\\Program.cs",
               "RelativeDocumentMoniker": "DemoOrderOfN\\Program.cs",
-              "ToolTip": "C:\\Users\\rbacadon2\\source\\repos\\DemoOrderOfN\\DemoOrderOfN\\Program.cs",
+              "ToolTip": "C:\\Users\\rbacadon2\\Documents\\GitHub\\CMPE1666\\DemoOrderOfN\\DemoOrderOfN\\Program.cs",
               "RelativeToolTip": "DemoOrderOfN\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-03T15:10:08.396Z",
               "EditorCaption": ""

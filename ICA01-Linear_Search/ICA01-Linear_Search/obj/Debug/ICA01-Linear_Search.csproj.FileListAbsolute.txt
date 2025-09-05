@@ -1,0 +1,8 @@
+C:\Users\rbacadon2\Documents\GitHub\CMPE1666\ICA01-Linear_Search\ICA01-Linear_Search\obj\Debug\ICA01-Linear_Search.csproj.AssemblyReference.cache
+C:\Users\rbacadon2\Documents\GitHub\CMPE1666\ICA01-Linear_Search\ICA01-Linear_Search\obj\Debug\ICA01-Linear_Search.csproj.CoreCompileInputs.cache
+C:\Users\rbacadon2\Documents\GitHub\CMPE1666\ICA01-Linear_Search\ICA01-Linear_Search\bin\Debug\ICA01-Linear_Search.exe.config
+C:\Users\rbacadon2\Documents\GitHub\CMPE1666\ICA01-Linear_Search\ICA01-Linear_Search\bin\Debug\ICA01-Linear_Search.exe
+C:\Users\rbacadon2\Documents\GitHub\CMPE1666\ICA01-Linear_Search\ICA01-Linear_Search\bin\Debug\ICA01-Linear_Search.pdb
+C:\Users\rbacadon2\Documents\GitHub\CMPE1666\ICA01-Linear_Search\ICA01-Linear_Search\obj\Debug\ICA01-Linear_Search.exe
+C:\Users\rbacadon2\Documents\GitHub\CMPE1666\ICA01-Linear_Search\ICA01-Linear_Search\obj\Debug\ICA01-Linear_Search.pdb
+C:\Users\rbacadon2\Documents\GitHub\CMPE1666\ICA01-Linear_Search\ICA01-Linear_Search\obj\Debug\ICA01-Linear_Search.exe.config
