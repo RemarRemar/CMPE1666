@@ -25,16 +25,17 @@ namespace ICA01_Linear_Search
             Console.WriteLine($"LArray={ilengthOfArray}, DR={iLowRange}, UR={iUpRange}");
         }
 
+        //********************************************************************************************
+        //Method: GetValue(in string strPrompt, in int iMin, in int iMax)
+        //Purpose: have user give as a number within a range of values.
+        //Parameters: Prompt user
+        // Read input
+        //validate input
+        //ask for another input if invalid
+        //Returns: the user's value
+        //*********************************************************************************************
         static int GetValue(in string strPrompt, in int iMinV, in int iMaxV)
-        {//********************************************************************************************
-            //Method: GetValue(in string strPrompt, in int iMin, in int iMax)
-            //Purpose: have user give as a number within a range of values.
-            //Parameters: Prompt user
-            // Read input
-            //validate input
-            //ask for another input if invalid
-            //Returns: the user's value
-            //*********************************************************************************************
+        {
             
             int iValue = 0; // this is what we'll return
             bool bLoop = true;//boolean for loop
@@ -58,15 +59,15 @@ namespace ICA01_Linear_Search
 
         }
 
+        //********************************************************************************************
+        //Method: GetRange(out int iMinR, out int iMaxR)
+        //Purpose: asks for a range from the user
+        //Parameters:GetValue()
+        // make sure the upper range is actually larger than the Lower Range
+        //Returns: range from user
+        //*********************************************************************************************
         static void GetRange(out int iMinR, out int iMaxR)
-        {//********************************************************************************************
-            //Method: GetRange(out int iMinR, out int iMaxR)
-            //Purpose: asks for a range from the user
-            //Parameters:GetValue()
-            // make sure the upper range is actually larger than the Lower Range
-            //Returns: the sum
-            //*********************************************************************************************
-
+        {
             iMinR = 0;
             iMaxR = 0;
             bool bloop = true;
@@ -92,38 +93,41 @@ namespace ICA01_Linear_Search
             }
         }
 
+        //********************************************************************************************
+        //Method: GetSum(int[] ArrayOfNumbers)
+        //Purpose: adds up all the numbers in the array
+        //Parameters:number adder loop
+        // print the sum
+        //Returns: the sum
+        //*********************************************************************************************
         static void GenerateArray()
-        {//********************************************************************************************
-            //Method: GetSum(int[] ArrayOfNumbers)
-            //Purpose: adds up all the numbers in the array
-            //Parameters:number adder loop
-            // print the sum
-            //Returns: the sum
-            //*********************************************************************************************
+        {
 
 
         }
 
+        //********************************************************************************************
+        //Method: GetSum(int[] ArrayOfNumbers)
+        //Purpose: adds up all the numbers in the array
+        //Parameters:number adder loop
+        // print the sum
+        //Returns: the sum
+        //*********************************************************************************************
         static void DisplayArray()
-        {//********************************************************************************************
-            //Method: GetSum(int[] ArrayOfNumbers)
-            //Purpose: adds up all the numbers in the array
-            //Parameters:number adder loop
-            // print the sum
-            //Returns: the sum
-            //*********************************************************************************************
+        {
 
 
         }
 
+        //********************************************************************************************
+        //Method: GetSum(int[] ArrayOfNumbers)
+        //Purpose: adds up all the numbers in the array
+        //Parameters:number adder loop
+        // print the sum
+        //Returns: the sum
+        //*********************************************************************************************
         static void CountOccurences()
-        {//********************************************************************************************
-            //Method: GetSum(int[] ArrayOfNumbers)
-            //Purpose: adds up all the numbers in the array
-            //Parameters:number adder loop
-            // print the sum
-            //Returns: the sum
-            //*********************************************************************************************
+        {
 
 
         }
