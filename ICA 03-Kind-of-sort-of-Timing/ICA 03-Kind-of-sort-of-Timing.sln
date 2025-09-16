@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36327.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICA 03-Kind-of-sort-of-Timing", "ICA 03-Kind-of-sort-of-Timing\ICA 03-Kind-of-sort-of-Timing.csproj", "{4EBFB880-FAF2-465E-8F6E-8F707CC05353}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EBFB880-FAF2-465E-8F6E-8F707CC05353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EBFB880-FAF2-465E-8F6E-8F707CC05353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EBFB880-FAF2-465E-8F6E-8F707CC05353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EBFB880-FAF2-465E-8F6E-8F707CC05353}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66DA7B9B-E5CC-43E0-97C4-F775DB54E010}
+	EndGlobalSection
+EndGlobal
