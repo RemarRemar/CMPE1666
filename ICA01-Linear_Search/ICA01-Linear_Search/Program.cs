@@ -167,17 +167,17 @@ namespace ICA01_Linear_Search
         //*********************************************************************************************
         static void CountOccurences(int[] iArrayToSift, int iOccurence)
         {
-            int tempj = 0;//for counting
+            int count = 0;//for counting
             for (int i = 0; i < iArrayToSift.Length; i++)
             {
                 if (iOccurence == iArrayToSift[i])//counts up if a value matching required is found
                 {
-                    tempj++;
+                    count++;
                 }
             }
-            if (tempj > 0)
+            if (count > 0)
             {
-                Console.WriteLine($"{iOccurence} occurs {tempj} times in the array.");
+                Console.WriteLine($"{iOccurence} occurs {count} times in the array.");
             }
             else
             {

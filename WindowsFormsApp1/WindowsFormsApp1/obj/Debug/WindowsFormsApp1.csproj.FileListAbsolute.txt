@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\rbacadon2\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
 C:\Users\rbacadon2\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
 C:\Users\rbacadon2\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
@@ -9,3 +10,16 @@ C:\Users\rbacadon2\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Wind
 C:\Users\rbacadon2\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\rbacadon2\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 C:\Users\rbacadon2\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.config
+=======
+C:\Users\rbacadon2\Documents\GitHub\CMPE1666\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\rbacadon2\Documents\GitHub\CMPE1666\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\rbacadon2\Documents\GitHub\CMPE1666\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\rbacadon2\Documents\GitHub\CMPE1666\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\rbacadon2\Documents\GitHub\CMPE1666\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\rbacadon2\Documents\GitHub\CMPE1666\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\rbacadon2\Documents\GitHub\CMPE1666\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\rbacadon2\Documents\GitHub\CMPE1666\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\rbacadon2\Documents\GitHub\CMPE1666\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\rbacadon2\Documents\GitHub\CMPE1666\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.config
+C:\Users\rbacadon2\Documents\GitHub\CMPE1666\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+>>>>>>> 010edfbb0be30f08676db15f03ee23b62bb989dd

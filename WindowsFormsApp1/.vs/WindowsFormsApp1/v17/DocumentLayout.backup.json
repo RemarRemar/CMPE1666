@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\rbacadon2\\source\\repos\\WindowsFormsApp1\\",
   "Documents": [
     {
@@ -13,6 +14,21 @@
     {
       "AbsoluteMoniker": "D:0:0:{48F1462E-2967-4F51-90C7-81FE4FAE4BDE}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\rbacadon2\\source\\repos\\windowsformsapp1\\windowsformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48F1462E-2967-4F51-90C7-81FE4FAE4BDE}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\rbacadon2\\Documents\\GitHub\\CMPE1666\\WindowsFormsApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1966A300-1996-432D-BA2E-29C2CE5607B6}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\rbacadon2\\documents\\github\\cmpe1666\\windowsformsapp1\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1966A300-1996-432D-BA2E-29C2CE5607B6}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1966A300-1996-432D-BA2E-29C2CE5607B6}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\rbacadon2\\documents\\github\\cmpe1666\\windowsformsapp1\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1966A300-1996-432D-BA2E-29C2CE5607B6}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1966A300-1996-432D-BA2E-29C2CE5607B6}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\rbacadon2\\documents\\github\\cmpe1666\\windowsformsapp1\\windowsformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1966A300-1996-432D-BA2E-29C2CE5607B6}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 010edfbb0be30f08676db15f03ee23b62bb989dd
     }
   ],
   "DocumentGroupContainers": [
@@ -32,19 +48,30 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\rbacadon2\\source\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
               "ToolTip": "C:\\Users\\rbacadon2\\source\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
               "RelativeToolTip": "WindowsFormsApp1\\Form1.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAUwCsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwCsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-10T15:08:47.803Z",
+=======
+              "DocumentMoniker": "C:\\Users\\rbacadon2\\Documents\\GitHub\\CMPE1666\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\rbacadon2\\Documents\\GitHub\\CMPE1666\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T14:36:18.375Z",
+>>>>>>> 010edfbb0be30f08676db15f03ee23b62bb989dd
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\rbacadon2\\source\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\Program.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Program.cs",
               "ToolTip": "C:\\Users\\rbacadon2\\source\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\Program.cs",
@@ -52,18 +79,36 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-10T15:08:44.053Z",
+=======
+              "DocumentMoniker": "C:\\Users\\rbacadon2\\Documents\\GitHub\\CMPE1666\\WindowsFormsApp1\\WindowsFormsApp1\\Program.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\rbacadon2\\Documents\\GitHub\\CMPE1666\\WindowsFormsApp1\\WindowsFormsApp1\\Program.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T14:36:13.975Z",
+>>>>>>> 010edfbb0be30f08676db15f03ee23b62bb989dd
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\rbacadon2\\source\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
               "ToolTip": "C:\\Users\\rbacadon2\\source\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs [Design]",
               "RelativeToolTip": "WindowsFormsApp1\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-10T15:08:33.218Z",
+=======
+              "DocumentMoniker": "C:\\Users\\rbacadon2\\Documents\\GitHub\\CMPE1666\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\rbacadon2\\Documents\\GitHub\\CMPE1666\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T14:34:48.406Z",
+>>>>>>> 010edfbb0be30f08676db15f03ee23b62bb989dd
               "EditorCaption": " [Design]"
             }
           ]

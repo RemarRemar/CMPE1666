@@ -8,11 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 010edfbb0be30f08676db15f03ee23b62bb989dd
 namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
+<<<<<<< HEAD
         int iClickCounter = 0;
         public Form1()
         {
@@ -50,6 +54,36 @@ namespace WindowsFormsApp1
             {
                 Text = $"MOUSE CLICKED :{iClickCounter}";
             }
+=======
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Shown(object sender, EventArgs e)
+        {
+            Print("call Shown");
+                }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Print("call load");
+        }
+
+        private void Form1_Paint(object sender, PaintEventArgs e)
+        {
+            Print("call paint");
+        }
+        static void Print(string sPrint)
+        {
+            System.Diagnostics.Trace.WriteLine(sPrint);
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Print("call FormClosing");
+            MessageBox.Show("do you want to save le work");
+>>>>>>> 010edfbb0be30f08676db15f03ee23b62bb989dd
         }
     }
 }
